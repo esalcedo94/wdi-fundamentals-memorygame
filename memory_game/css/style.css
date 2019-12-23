@@ -1,16 +1,16 @@
 h1{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    color: #0D2C40;
     font-size: 45px; 
-    font-style: uppercase;
+    text-transform: uppercase;
+    margin: 0;
 }
 h2{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     color: #0D2C40;
-    font-size: 45px; 
-    font-style: uppercase;
+    font-size: 18px; 
+    text-transform: uppercase;
 }
 
 p{
@@ -19,11 +19,30 @@ p{
 body{
     text-align: center;
     font-size: 18px;
+    margin: 0;
 }
 a{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    color: #F15B31;
-    font-size: 45px; 
-    font-style: uppercase;
+    color: #ffffff;
+    font-size: 18px; 
+    text-transform: uppercase;
+    margin: 20px;
+}
+header{
+    background-color: #F15B31;
+    color: #FFFFFF;
+    padding: 30px 20px;
+}
+nav{
+    background-color: #00A6B3;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+main{
+    width: 850px;
+    margin: 35px auto;
+}
+img{
+    margin: 40px 8px;
 }
